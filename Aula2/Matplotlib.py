@@ -14,7 +14,6 @@ plt.show()
 
 
 #Grafico de linhas
-import matplotlib.pyplot as plt
 
 nomes = ["Evelyn", "Pedro", "Gustavo", "Mateus", "Felipe", "Marcelo"]
 faltas = [2, 5, 1, 3, 7, 4]
@@ -28,7 +27,6 @@ plt.title("Faltas dos alunos")
 plt.show()
 
 #Histograma
-import matplotlib.pyplot as plt
 
 faltas = [2, 5, 1, 3, 7, 4]
 
@@ -41,8 +39,6 @@ plt.title("Distribuição das faltas")
 plt.show()
 
 #dispersao 
-
-import matplotlib.pyplot as plt
 
 aulas = [20, 21, 19, 22, 23, 24]
 faltas = [2, 5, 1, 3, 7, 4]

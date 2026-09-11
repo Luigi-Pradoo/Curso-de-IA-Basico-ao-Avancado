@@ -1,12 +1,12 @@
 import pandas as pd
 
-Escolhinha_de_IA = {
+Escolinha_de_IA = {
     "Nome": ["Evelyn", "Pedro", "Gustavo", "Mateus", "Felipe", "Marcelo"],
     "Idade": [20, 21, 19, 22, 23, 24],
     "Nota": [8, 7, 9, 6, 5, 10]
 }
 
-df = pd.DataFrame(Escolhinha_de_IA)
+df = pd.DataFrame(Escolinha_de_IA)
 
 print(df.head(5))
 print(df.tail(5))

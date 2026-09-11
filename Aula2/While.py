@@ -1,10 +1,10 @@
-Falta_Escolhinha = 0
+Falta_Escolinha = 0
 
-while Falta_Escolhinha < 5:
+while Falta_Escolinha < 5:
 
     print("O aluno ainda pode faltar")
 
-    Falta_Escolhinha += 1
+    Falta_Escolinha += 1
 
 print("Número máximo de faltas atingido! REPROVADO!")
 
