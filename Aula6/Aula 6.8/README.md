@@ -1,7 +1,7 @@
 # Aula 6.8 — Naive Bayes do zero
 
 > **Módulo 06 · ML na mão, com NumPy** · 2 h · Projeto: **filtro de spam** em português
-> Material: [`Aula 6.8 - Naive Bayes do Zero.pdf`](Aula%206.8%20-%20Naive%20Bayes%20do%20Zero.pdf) (52 slides)
+> Material: [`Aula 6.8 - Naive Bayes do Zero.pdf`](Aula%206.8%20-%20Naive%20Bayes%20do%20Zero.pdf) (52 slides) + [`Exercicio Guiado.py`](Exercicio%20Guiado.py)
 
 *"Parabéns! Você ganhou uma promoção!"* — isso é spam? A ideia do Naive Bayes é simples: comparar **com que frequência cada palavra aparece** em mensagens de spam e em mensagens normais já rotuladas, e transformar essas contagens numa decisão com o **Teorema de Bayes**. Diferente da regressão logística e do KNN, aqui não há gradiente nem distância: o "treino" é **contar**. A aula vai da probabilidade básica até um classificador completo em NumPy, passando pelos dois truques que fazem o método funcionar na prática — **suavização de Laplace** e **logaritmos**.
 
@@ -131,9 +131,13 @@ NumPy: `numpy.log` · scikit-learn: *Naive Bayes*, `GaussianNB`, `MultinomialNB`
 | Arquivo | Conteúdo |
 |---|---|
 | `Aula 6.8 - Naive Bayes do Zero.pdf` | slides da aula |
+| `Exercicio Guiado.py` | as etapas do exercício num mini dataset de 4 mensagens: tokenizar, vocabulário, vetorização, prioris, Laplace, log-pontuações, a classe `NaiveBayesDoZero` e a previsão de *"Parabéns! Você ganhou uma promoção!"* |
 
-> ⚠️ Este PDF foi exportado em página A4 **retrato**, com cada slide **deitado (girado 90°)**. O conteúdo está íntegro; para ler, gire a visualização no leitor de PDF ou reexporte em formato paisagem 16:9.
+```bash
+cd "Aula6/Aula 6.8"
+python "Exercicio Guiado.py"
+```
 
 ---
 
-**← Anterior:** [Aula 6.7 — KNN do zero](../Aula%206.7/README.md) · **Voltar ao módulo:** [Aula 6](../README.md)
+**← Anterior:** [Aula 6.7 — KNN do zero](../Aula%206.7/README.md) · **Próxima →** [Aula 6.9 — Árvore de Decisão do zero](../Aula%206.9/README.md)
